@@ -7,6 +7,7 @@ public class SampleClass {
 		System.out.println("Hello World");
 		System.out.println("to check the changes done in eclipse after committing in github");
 		System.out.println("this is new line");
+		System.out.println("Checking");
 	}
 
 }
