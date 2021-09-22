@@ -1,10 +1,11 @@
 package com.myLearning.arrayBasic;
-
+//Program to find the least frequent digit between 1 t0 10000
 
 public class FreqDigit {
-	int n,temp,sum=0;
+	int n,temp;
+	int index=0,min=ar[index];
 	static int ar[]=new int[10];
-	void getFrequent() {
+	void getDigitCount() {
 		for(int i=0;i<10;i++)
 			ar[i]=0;
 		for(int i=1;i<=10000;i++) {
@@ -14,22 +15,20 @@ public class FreqDigit {
 				}
 			}
 		}
-	void getLowFreq() {
-		for(int i=0;i<10;i++) {
-			for(int j=i+1;j<10;j++) {
-				if(ar[i]>ar[j]) {
-					temp=ar[i];
-					ar[i]=ar[j];
-					ar[j]=temp;
-				}
+	void getLeastFrequent() {
+		for(int i=1;i<10;i++) {
+			if(ar[i]<min) {
+				min=ar[i];
+				index=i;
 			}
 		}
 	}
 	public static void main(String args[]) {
 		FreqDigit freq=new FreqDigit();
-		freq.getFrequent();
-		freq.getLowFreq();
-		System.out.println(ar[0]);	
+		freq.getDigitCount();
+		freq.getLeastFrequent();
+		System.out.println("The lease Frequent digit is: "+freq.index);
+		System.out.println("The Frequency of the digit is: "+ar[freq.index]);	
 		}
 
 }

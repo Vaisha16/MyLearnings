@@ -12,7 +12,7 @@ public class PatternSeries01 {
 		}
 	}
 	void pat() {
-		int count=1;
+		int count=0;
 		int s=0;
 		int series[]=new int[n];
 		for(int a=0;a<n;a++) {
@@ -21,21 +21,21 @@ public class PatternSeries01 {
 			s=s+2;
 			//System.out.println(series[a]);
 		}
-		for(int i=0;i<r;i++) {			
-			for(int j=r;j>i+1;j--) {//for loop to print space
-				System.out.print(" ");
+		if(count<n) {
+		for(int i=1;i<=r;i++) {
+			for(int j=r;j>i;j--) {//for loop to print space
+				System.out.print("*\t");
 			}
-			for(int j=0;j<Math.pow(2,i);j++) {
-				if(Math.pow(2, i)==1)
-					System.out.print("\t");
-				else {
-					System.out.print(series[count]+" ");
-					count++;}
-				}
+			for(int j=0;j<r;j++) {
+				if(series[count]==0) {
+					break;}
+					System.out.print(j+"\t");
+					
+			}count++;
 			System.out.println();
-			//for(j=0;j<)
-			}
 		}
+	}
+	}
 	
 	public static void main(String args[]) {
 		PatternSeries01 o=new PatternSeries01();
