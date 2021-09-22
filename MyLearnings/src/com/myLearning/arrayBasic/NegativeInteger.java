@@ -15,7 +15,8 @@ public class NegativeInteger {
 					}
 				}
 			}
-		}System.out.println("The sorted array elements are: ");
+		}
+	}System.out.println("The sorted array elements are: ");
 		for(int i=0;i<size;i++)
 			System.out.print(a[i]+" ");
 	}
