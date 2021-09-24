@@ -2,7 +2,7 @@ package com.myLearning.basics;
 
 import java.util.Scanner;
 
-public class Pattern12 {
+public class Pattern13 {
 	public static void main(String arg[]){
 		Scanner scan=new Scanner(System.in);
 		System.out.println("Please enter the pattern size:");

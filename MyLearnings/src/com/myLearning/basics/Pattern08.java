@@ -1,20 +1,25 @@
 package com.myLearning.basics;
 
+import java.util.Scanner;
+
 public class Pattern08 {
 	public static void main(String arg[]){
-		//int n=5;
-		for(int i=1;i<=3;i++)
-		{	
-			for(int j=0;j<3;j++)
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Please enter the pattern size:");
+		int size=scan.nextInt();
+		int half=size/2;
+		if(size%2!=0) {
+			for(int i=1;i<=size;i++)
 			{	
-				if((i==1 && j==1)||(i==3 && j==1))
-					System.out.print("*");
-				else if(i==2)
-					System.out.print("*");
-				else 
-					System.out.print(" ");
+				for(int j=1;j<=size;j++)
+				{	
+					if(j==half+1 || i==half+1)
+						System.out.print("*");
+					else
+						System.out.print(" ");
+				}
+				System.out.println("");
 			}
-		System.out.println("");
 		}
 	}
 }

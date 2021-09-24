@@ -1,8 +1,12 @@
 package com.myLearning.basics;
 
+import java.util.Scanner;
+
 public class Pattern15 {
 	public static void main(String args[]) {
-		int n=5;
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Please enter the pattern size:");
+		int n=scan.nextInt();
 		int b=0;
 		for(int i=1;i<=n;i++) {
 			for(int j=n-1;j>=i;j--) {
