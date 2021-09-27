@@ -2,7 +2,7 @@ package com.myLearning.oops;
 
 public class Fibonacci {
 	public static void main(String args[]) {
-		int a,b,c,n=3;
+		int a,b,c,n=5;
 		a=0;
 		b=1;
 		c=0;

@@ -14,5 +14,4 @@ public class FactorialProgram {
 		}
 		System.out.println("Factorial of "+input+ " is :"+output);
 	}
-
 }
