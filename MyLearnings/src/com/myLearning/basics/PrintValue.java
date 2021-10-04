@@ -14,5 +14,7 @@ public static void main(String arg[]){
 		a++;
 		b++;
 	}
+	System.out.println(a+"\t"+b);
+	
 }
 }

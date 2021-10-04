@@ -71,6 +71,7 @@ public class PatternSeriesN {
 	public static void main(String args[]) {
 		PatternSeriesN o=new PatternSeriesN();
 		Scanner scan=new Scanner(System.in);
+		System.out.println("Please enter the array size");
 		r=scan.nextInt();
 		o.noOfSeries();
 		o.pat();

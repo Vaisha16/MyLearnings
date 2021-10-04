@@ -1,5 +1,5 @@
 package com.myLearning.arrayBasic;
-
+//Print the number of pages in a book which has 192 digits
 public class TextbookNumber {
 	int i,digit=192,number=0,count=0,temp;
 	void getBookNumber() {

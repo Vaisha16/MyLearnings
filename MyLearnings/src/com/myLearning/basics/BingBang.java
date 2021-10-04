@@ -11,5 +11,5 @@ public static void main(String arg[]) {
 		System.out.println("Bang");
 	else
 		System.out.println(n);
-}
+	}
 }

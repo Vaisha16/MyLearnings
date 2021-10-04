@@ -1,5 +1,5 @@
 package com.myLearning.arrayBasic;
-
+//Program to push negative elements towards one side of array
 import java.util.Scanner;
 
 public class IntegerArray {

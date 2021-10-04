@@ -1,5 +1,5 @@
 package com.myLearning.arrayBasic;
-//Program to find the least frequent digit between 1 t0 10000
+//Program to find the least frequent digit between 1 to 10000
 
 public class FreqDigit {
 	int n,temp;

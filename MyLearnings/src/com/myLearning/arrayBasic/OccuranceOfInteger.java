@@ -2,16 +2,16 @@ package com.myLearning.arrayBasic;
 
 import java.util.Scanner;
 
-//Program to find the least frequent digit between 1 t0 10000
+//Program to find the Occurance of integer
 
 public class OccuranceOfInteger {
-	int n,temp,count=0;
+	int n,count=0;
 	static int size;
 	void getOccurance(int k,int[] ar) {
-		for(int i=0;i<size;i++) {
+		for(int i=0;i<size;i++) 
 			if(ar[i]==k)
 				count++;
-		}System.out.println(k+" Occurs "+count+" time");
+		System.out.println(k+" Occurs "+count+" time");
 	}
 	public static void main(String args[]) {
 		OccuranceOfInteger occurance=new OccuranceOfInteger();

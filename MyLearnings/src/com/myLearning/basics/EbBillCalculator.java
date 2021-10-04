@@ -1,8 +1,15 @@
 package com.myLearning.basics;
+
+import java.util.Scanner;
+
 //07-Sep-2021
 public class EbBillCalculator {
 	public static void main(String arg[]) {
-		int oldReading=1500,newReading=2100;
+		Scanner scanner=new Scanner(System.in);
+		System.out.print("Enter the Old Reading : ");
+		int oldReading=scanner.nextInt();
+		System.out.print("Enter the New Reading : ");
+		int newReading=scanner.nextInt();
 		int units=newReading-oldReading;
 		System.out.print("UNITS : "+units);
 		double fare=0;
