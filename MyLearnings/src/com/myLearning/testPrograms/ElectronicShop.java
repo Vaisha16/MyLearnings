@@ -28,8 +28,10 @@ public class ElectronicShop {
 		System.out.println("Sl_No\tBrand\t \tModel\t\t\t\tPrice");
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");  
+			
 			Connection con=DriverManager.getConnection(  
-			"jdbc:oracle:thin:@localhost:1521:orcl4","SYS AS SYSDBA","Password4");  
+			"jdbc:oracle:thin:@localhost:1521/orcl4","SYS AS SYSDBA","Password4");  
+			con.close();
 			Statement stmt=con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);  //to select specific row
 			ResultSet rs=stmt.executeQuery("select * from laptop");  
 			while(rs.next())  {

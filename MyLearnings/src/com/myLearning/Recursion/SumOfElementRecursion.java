@@ -1,4 +1,4 @@
-package com.myLearnings.Recursion;
+package com.myLearning.Recursion;
 
 import java.util.Scanner;
 
