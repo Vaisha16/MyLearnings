@@ -1,4 +1,12 @@
 package com.interview.practice;
+/*Getting string, Integer and boolean input from user
+ * eg: string="hello 90, bye 2 n=7,inverse=true.
+ * Add the n value to the string integer
+ * if inverse is true reverse the integer string after adding n to it
+ * else print the string as it is after adding n.
+ * output: hello 79, bye 9
+ */
+
 
 import java.util.Scanner;
 
