@@ -25,6 +25,7 @@ public class OccuranceOfInteger {
 		System.out.println("Enter the Interger: ");
 		int k=s.nextInt();
 		occurance.getOccurance(k,ar);
+		s.close();
 	}
 
 }

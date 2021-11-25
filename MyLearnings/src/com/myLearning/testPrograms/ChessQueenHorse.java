@@ -54,6 +54,7 @@ public class ChessQueenHorse {
 		System.out.println("Please enter the Horse's row position: ");
 		int hc=scanner.nextInt();
 		chess.toCheck(qr,qc,hr,hc);
+		scanner.close();
 	}
 
 }

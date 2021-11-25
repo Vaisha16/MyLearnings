@@ -21,6 +21,6 @@ public class Pattern15 {
 				System.out.print(b--);
 			}
 			System.out.println();
-		}
+		}scan.close();
 	}
 }

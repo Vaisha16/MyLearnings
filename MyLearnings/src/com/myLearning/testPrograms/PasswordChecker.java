@@ -56,6 +56,7 @@ public class PasswordChecker {
 		System.out.println("Please Enter the Password: ");
 		p.str=scanner.next();
 		p.checkPassword();
-	}
+		scanner.close();
+		}
 
 }

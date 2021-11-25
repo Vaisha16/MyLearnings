@@ -37,6 +37,7 @@ public class Sort012 {
 				i--;
 			}
 		}
+		s.close();
 		for(int i=0;i<size;i++)
 			System.out.print(a[i]+" ");
 		p.getSort(size,a);

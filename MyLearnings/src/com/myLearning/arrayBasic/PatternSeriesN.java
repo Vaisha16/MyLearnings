@@ -70,10 +70,11 @@ public class PatternSeriesN {
 	
 	public static void main(String args[]) {
 		PatternSeriesN o=new PatternSeriesN();
-		Scanner scan=new Scanner(System.in);
+		Scanner scanner=new Scanner(System.in);
 		System.out.println("Please enter the array size");
-		r=scan.nextInt();
+		r=scanner.nextInt();
 		o.noOfSeries();
 		o.pat();
+		scanner.close();
 	}
 }

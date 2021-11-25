@@ -25,5 +25,6 @@ public class SumOfNumbersRecursion {
 		System.out.print("Sum of the Numbers : ");
 		sumofnum.toPrint(n);
 		System.out.print(sumofnum.sum);
+		scanner.close();
 	}
 }

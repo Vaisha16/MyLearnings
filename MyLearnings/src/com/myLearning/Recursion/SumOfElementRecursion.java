@@ -24,6 +24,7 @@ public class SumOfElementRecursion {
 			a[i]=scanner.nextInt();
 		sumofelement.getSum(a);
 		System.out.print("Sum of the Element in an array:  "+sumofelement.sum);
+		scanner.close();
 	}
 
 }

@@ -29,5 +29,6 @@ public class SortingArray {
 		for(int i=0;i<size;i++)
 			a[i]=s.nextInt();
 		p.getSort(size,a);
+		s.close();
 	}
 }

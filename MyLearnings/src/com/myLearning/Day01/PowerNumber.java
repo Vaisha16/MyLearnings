@@ -9,6 +9,6 @@ public class PowerNumber {
 		int n=scanner.nextInt();
 		for(int i=1;i<=n;i++) {
 			System.out.print((int)Math.pow(i,2)+"\t");
-		}
+		}scanner.close();
 	}
 }

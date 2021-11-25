@@ -9,7 +9,7 @@ public class PrintingOne {
 		int n=scanner.nextInt();
 		for(int i=0;i<n;i++) {
 			System.out.println(1);
-		}
+		}scanner.close();
 	}
 
 }

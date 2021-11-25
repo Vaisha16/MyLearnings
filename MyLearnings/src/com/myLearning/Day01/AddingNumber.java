@@ -11,6 +11,6 @@ public class AddingNumber {
 		for(int i=1;i<=n;i++) {
 			System.out.print(sum+"\t");
 			sum+=i;
-		}
+		}scanner.close();
 	}
 }

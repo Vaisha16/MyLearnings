@@ -8,7 +8,7 @@ public class CubeNumber {
 		System.out.println("How many numbers should i print: ");
 		int n=scanner.nextInt();
 		for(int i=1;i<=n;i++) {
-			System.out.print((int)Math.pow(i,i)+"\t");
-		}
+			System.out.print((int)Math.pow(i,3)+"\t");
+		}scanner.close();
 	}
 }

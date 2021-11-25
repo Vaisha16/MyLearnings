@@ -35,5 +35,6 @@ public class MaxMinElement {
 			a[i]=s.nextInt();
 		p.getSort(size,a);
 		p.getMaxMin(size,a);
+		s.close();
 	}
 }

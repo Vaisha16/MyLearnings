@@ -16,6 +16,6 @@ public class Pattern09 {
 			}
 			System.out.println("");
 			System.out.print("");
-		}
+		}scan.close();
 	}
 }

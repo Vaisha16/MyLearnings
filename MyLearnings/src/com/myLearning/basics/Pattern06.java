@@ -16,6 +16,6 @@ public class Pattern06 {
 			System.out.print("*");
 			System.out.println("");
 			
-		}
+		}scan.close();
 	}
 }

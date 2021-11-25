@@ -24,6 +24,7 @@ public class Factorial {
 		}
 		num.toPrint(n);
 		System.out.println("The Factorial of "+n+" is: "+num.fact);
+		scanner.close();
 	}
 }
 

@@ -4,27 +4,26 @@ import java.util.Scanner;
 
 public class PrimeNumberPrinting {
 	int count=0;
+	boolean prime=true;
 	
 	void isPrime(int n) {
 		if(n==2||n==3) {
 			System.out.print(n+"\t");
 			count++;
 		}
-		else {
-		for(int i=2;i<=n/2;i++) {
-			if(n%i==0) {
-				//System.out.println(n+" is not a prime number");
-				break;
-			}
-			else {
+		else 
+		{
+			for(int i=2;i<=n/2;i++) {
+				if(n%i==0) {
+					prime=false;
+					}
+				}
+			if(prime) {
 				System.out.print(n+"\t");
 				count++;
-				break;
 			}
-			
-		}
+		}prime=true;
 	}
-}
 	public static void main(String args[]) {
 		int i=2;
 		PrimeNumberPrinting p=new PrimeNumberPrinting();
@@ -34,6 +33,7 @@ public class PrimeNumberPrinting {
 		while(p.count<n) {
 			p.isPrime(i);
 			i++;
-		}
+			if(p.count%10==0) System.out.println();
+		}scanner.close();
 	}
 }

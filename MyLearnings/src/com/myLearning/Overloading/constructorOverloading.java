@@ -8,7 +8,7 @@ public class constructorOverloading {
 	constructorOverloading(){
 		if(count<0) {
 			System.out.println(count);
-			constructorOverloading m=new constructorOverloading();
+			new constructorOverloading();
 			count++;
 			}
 		}
@@ -19,8 +19,8 @@ public class constructorOverloading {
 		System.out.println("String: "+str);
 	}
 	public static void main(String args[]) {
-		constructorOverloading m=new constructorOverloading();
-		constructorOverloading o=new constructorOverloading(5);
-		constructorOverloading i=new constructorOverloading("JAVA");
+		new constructorOverloading();
+		new constructorOverloading(5);
+		new constructorOverloading("JAVA");
 	}
 }

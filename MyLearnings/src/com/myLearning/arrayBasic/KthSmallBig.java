@@ -36,5 +36,6 @@ public class KthSmallBig {
 		int k=s.nextInt();
 		p.getSort(size,a);
 		p.getMaxMin(a,k,size);
+		s.close();
 	}
 }

@@ -15,6 +15,6 @@ public class OddEven {
 		for(int i=n/2;i<n;i++) {
 			System.out.print(even+"\t");
 			even+=2;
-		}
+		}scanner.close();
 	}
 }

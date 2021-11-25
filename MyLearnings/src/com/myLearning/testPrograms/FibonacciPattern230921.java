@@ -13,6 +13,7 @@ public class FibonacciPattern230921 {
 		for(int m=1;m<=row;m++) {
 			size=size+((m*2)-1);
 		}
+		scan.close();
 	}
 	void getFibonacci(int[] series) {
 		for(int i=0;i<size;i++) {

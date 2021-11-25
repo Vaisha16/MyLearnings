@@ -27,6 +27,7 @@ public class FibonacciRecursion {
 		}
 		System.out.print("Fibonacci series : "+n+" is: ");
 		fibonacci.toPrint(n);
+		scanner.close();
 	}
 }
 

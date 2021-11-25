@@ -18,6 +18,6 @@ public class Pattern02 {
 				System.out.print("*");
 			}
 			System.out.println("");
-		}
+		}scan.close();
 	}
 }

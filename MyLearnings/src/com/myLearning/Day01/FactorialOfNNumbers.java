@@ -9,6 +9,7 @@ public class FactorialOfNNumbers {
 		int n=scanner.nextInt();
 		for(int a=1;a<=n;a++)
 		factorial(a);
+		scanner.close();
 	}
 	static void factorial(int a) {
 		int output=1;

@@ -26,6 +26,7 @@ public class LargestElementRecursion {
 			a[i]=scanner.nextInt();
 		large.getLargest(a);
 		System.out.println("Largest Element in Array is: "+large.max);
+		scanner.close();
 	}
 
 }

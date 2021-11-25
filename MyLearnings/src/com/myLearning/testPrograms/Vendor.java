@@ -70,6 +70,7 @@ public class Vendor {
 		System.out.println("Select the tender attribute to choose the company \n1.Lead time\n2.Tender value\n3.Project duration\n4.Vendor rating");
 		v.option=s.nextInt();
 		v.choice=v.select(v.option,vendor,number);
+		s.close();
 		if(v.option==4)
 			System.out.println("Mr.Mahajan, you should award the tender to "+vendor[v.choice].name+" (Note: "+vendor[v.choice].name+" has maximum Vendor Rating("+vendor[v.choice].vendorRating+") compare to others)");
 		else

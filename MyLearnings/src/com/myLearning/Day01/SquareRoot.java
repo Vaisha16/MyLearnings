@@ -9,5 +9,6 @@ public class SquareRoot {
 		System.out.println("Enter the number to calculate square root: ");
 		n=scanner.nextInt();
 		System.out.print("The square root of "+n+" is: "+Math.sqrt(n));
+		scanner.close();
 	}
 }

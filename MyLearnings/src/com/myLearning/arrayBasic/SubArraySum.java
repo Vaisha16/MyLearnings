@@ -39,5 +39,6 @@ public class SubArraySum {
 		System.out.println("Enter the sum value: ");
 		subarray.s=scanner.nextInt();
 		subarray.toCheck(a, size);
+		scanner.close();
 	}
 }

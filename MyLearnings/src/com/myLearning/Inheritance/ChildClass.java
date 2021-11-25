@@ -9,7 +9,7 @@ public class ChildClass extends SingleInheritance{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ChildClass c=new ChildClass(5);
+		/*ChildClass c=*/new ChildClass(5);
 	}
 
 }

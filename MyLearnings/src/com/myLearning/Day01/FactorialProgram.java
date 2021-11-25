@@ -17,5 +17,6 @@ public class FactorialProgram {
 			output*=i;
 		}
 		System.out.println("Factorial of "+input+ " is :"+output);
+		scanner.close();
 	}
 }

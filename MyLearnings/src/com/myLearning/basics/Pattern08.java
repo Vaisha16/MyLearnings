@@ -19,7 +19,7 @@ public class Pattern08 {
 						System.out.print(" ");
 				}
 				System.out.println("");
-			}
+			}scan.close();
 		}
 	}
 }

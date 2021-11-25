@@ -17,6 +17,6 @@ public class Pattern05 {
 				else
 					System.out.print("  ");
 			}System.out.println("");
-		}
+		}scan.close();
 	} 
 }

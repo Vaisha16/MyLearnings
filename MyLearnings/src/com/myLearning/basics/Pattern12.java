@@ -38,6 +38,6 @@ public class Pattern12 {
 			if(i<half)
 				System.out.print("*");
 			System.out.println();
-			}
+			}scan.close();
 		}
 	}

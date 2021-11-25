@@ -23,5 +23,6 @@ public class PeakElement {
 		for(int i=0;i<size;i++)
 			a[i]=s.nextInt();
 		p.getPeak(size,a);
+		s.close();
 	}
 }

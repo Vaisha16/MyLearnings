@@ -9,6 +9,7 @@ public class CaptialLetterString {
 	String s="";
 	char whiteSpace=' ';
 	int length=str.length();
+	
 	CaptialLetterString(){
 		for(int i=0;i<word.length;i++) {
 			String firstLetter=word[i].substring(0,1);

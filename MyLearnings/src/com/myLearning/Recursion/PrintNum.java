@@ -1,19 +1,22 @@
 package com.myLearning.Recursion;
 
+import java.util.Scanner;
+
 public class PrintNum {
 	int count=0;
-	void toPrint() {
-		if(count<10) {
+	void toPrint(int n) {
+		if(count<n) {
 			System.out.println(++count);
-			toPrint();
+			toPrint(n);
 		}
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		PrintNum num=new PrintNum();
-		num.toPrint();
-
+		Scanner scanner=new Scanner(System.in);
+		System.out.print("Enter the number: ");
+		num.toPrint(scanner.nextInt());
+		scanner.close();
 	}
 
 }

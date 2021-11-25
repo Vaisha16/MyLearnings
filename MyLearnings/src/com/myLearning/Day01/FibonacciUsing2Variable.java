@@ -12,6 +12,6 @@ public class FibonacciUsing2Variable {
 			System.out.print(a+" ");
 			a=a+b;
 			b=a-b;
-		}
+		}scanner.close();
 	}
 }

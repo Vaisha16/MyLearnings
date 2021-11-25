@@ -11,6 +11,6 @@ public class OddNumber {
 		for(int i=1;i<=n;i++) {
 			System.out.println(odd);
 			odd+=2;
-		}
+		}scanner.close();
 	}
 }

@@ -13,7 +13,6 @@ public class SumOfDigitsRecursion {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		SumOfDigitsRecursion sumofdigit=new SumOfDigitsRecursion();
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Please enter positive number: ");
@@ -25,5 +24,6 @@ public class SumOfDigitsRecursion {
 		System.out.print("Sum of the digits : ");
 		sumofdigit.toPrint(n);
 		System.out.print(sumofdigit.sum);
+		scanner.close();
 	}
 }

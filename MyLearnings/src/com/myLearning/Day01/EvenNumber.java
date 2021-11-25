@@ -11,6 +11,6 @@ public class EvenNumber {
 		for(int i=1;i<=n;i++) {
 			System.out.println(even);
 			even+=2;
-		}
+		}scanner.close();
 	}
 }

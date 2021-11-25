@@ -8,5 +8,6 @@ public class UserInput {
 		input=s.nextInt();
 		int result=input+1;
 		System.out.println(result);
-	}
+		s.close();
+		}
 }

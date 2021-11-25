@@ -16,27 +16,27 @@ public class AutomaticTellerMachine {
 			System.out.println("Amount should be multiples of 100");
 		}
 		else {
-		System.out.println("Rs \t Denomination");
-		for(int i=amount;i>0;){
-			n=500;
-			if((amount/n)>0) {
-				a=amount/n;
-				System.out.println(n+ " \t "+a);
-				amount-=(a*n);
+			System.out.println("Rs \t Denomination");
+			for(int i=amount;i>0;){
+				n=500;
+				if((amount/n)>0) {
+					a=amount/n;
+					System.out.println(n+ " \t "+a);
+					amount-=(a*n);
+					}
+				n=200;
+				if((amount/n)>0) {
+					a=amount/n;
+					System.out.println(n+ " \t "+a);
+					amount-=(a*n);
+					}
+				n=100;
+				if((amount/n)>0) {
+					a=amount/n;
+					System.out.println(n+ " \t "+a);
+					amount-=(a*n);
+					}
+				}
 			}
-			n=200;
-			if((amount/n)>0) {
-				a=amount/n;
-				System.out.println(n+ " \t "+a);
-				amount-=(a*n);
-			}
-			n=100;
-			if((amount/n)>0) {
-				a=amount/n;
-				System.out.println(n+ " \t "+a);
-				amount-=(a*n);
-			}
-		}
 		}
 	}
-}

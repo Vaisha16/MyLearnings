@@ -17,6 +17,6 @@ public class Pattern14 {
 			}
 			System.out.println("");
 			System.out.print("");
-		}
+		}scan.close();
 	}
 }

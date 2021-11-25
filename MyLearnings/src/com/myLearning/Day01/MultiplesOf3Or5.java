@@ -13,6 +13,6 @@ public class MultiplesOf3Or5 {
 				System.out.print(i+"\t");
 				count++;
 			}i++;
-		}
+		}scanner.close();
 	}
 }
